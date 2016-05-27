@@ -108,7 +108,7 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
     public void onClick(View v) {
         //wire up buttons with appropriate actions
         int id = v.getId();
-        EditText edited = focusedTextField();;
+        EditText edited = focusedTextField();
         //cancel button action
         switch (id) {
             case R.id.buttonCancel: {
@@ -139,11 +139,11 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
             case R.id.buttonpay: {
                 //get subscriber's phone number
                // TelephonyManager telephonyManager = (TelephonyManager) getActivity().getSystemService(Context.TELEPHONY_SERVICE);
-
-                String clientphone = PreferenceManager.getDefaultSharedPreferences(getActivity()).getString(Utility.APP_NUMBER, "237");
+                long p = PreferenceManager.getDefaultSharedPreferences(getActivity()).getLong(Utility.APP_NUMBER, 237);
+                String clientphone = String.valueOf(p);//PreferenceManager.getDefaultSharedPreferences(getActivity()).getString(Utility.APP_NUMBER, "237");
                 clientphone = new StringBuilder(clientphone).insert(0,"237").toString();
                 final String cphone = clientphone;
-                if (!clientphone.isEmpty() && clientphone.length()>3){
+                if (!clientphone.isEmpty() && clientphone.length()>8){
                     final String clientname = PreferenceManager.getDefaultSharedPreferences(getActivity()).getString(Utility.APP_USER,"Unknown Business");
                     final SweetAlertDialog sw = Utility.getInstance(getActivity())
                             .startPaymentDialog(getActivity().getString(R.string.paymentmessage));
