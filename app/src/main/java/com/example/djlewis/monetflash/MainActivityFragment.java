@@ -108,7 +108,7 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
     public void onClick(View v) {
         //wire up buttons with appropriate actions
         int id = v.getId();
-        EditText edited = focusedTextField();;
+        EditText edited = focusedTextField();
         //cancel button action
         switch (id) {
             case R.id.buttonCancel: {
