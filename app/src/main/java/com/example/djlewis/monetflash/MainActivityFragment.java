@@ -158,6 +158,7 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
                     //start async request to request for payment
                     Ion.with(this)
                             .load(Utility.PAYMENT_URL)
+                            .setTimeout(350)
                             .setBodyParameter("client_name", clientname)
                             .setBodyParameter("client", clientphone)
                             .setBodyParameter("amount", String.valueOf(Integer.parseInt(amount)))
