@@ -30,7 +30,8 @@
                 android:phoneNumber="true"
                 android:maxLength="9"
                 android:focusable="true"
-                android:focusableInTouchMode="true" />
+                android:focusableInTouchMode="true"
+                android:textColor="@color/abc_primary_text_material_light" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -44,7 +45,8 @@
                 android:enabled="false"
                 android:maxLength="6"
                 android:focusable="true"
-                android:focusableInTouchMode="true" />
+                android:focusableInTouchMode="true"
+                android:textColor="@color/abc_primary_text_material_light" />
             <mehdi.sakout.fancybuttons.FancyButton
                 android:id="@+id/buttonpay"
                 android:layout_width="wrap_content"
