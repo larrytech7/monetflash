@@ -1,6 +1,8 @@
 package utility;
 
 import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.support.design.widget.Snackbar;
 import android.view.View;
 
@@ -54,7 +56,13 @@ public class Utility {
         }
     }
 
-    public void showMessage(View v, String message){
+    public static void showMessage(View v, String message){
         Snackbar.make(v,message, Snackbar.LENGTH_LONG).show();
+    }
+
+    public static boolean isNetworkAvailable(Context c){
+        ConnectivityManager connectivityManager = (ConnectivityManager) c.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
+        return networkInfo ==null? false:networkInfo.isConnected();
     }
 }

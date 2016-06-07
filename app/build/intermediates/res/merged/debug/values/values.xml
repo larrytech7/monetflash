@@ -324,6 +324,7 @@
     <string name="dialog_ok">OK</string>
     <string name="finished">Payment Status</string>
     <string name="intro">With Monetflash, every client has a way to pay You!</string>
+    <string name="networkerror">There is no internet connection</string>
     <string name="numbernotavailable">Business Phone Number unavailable</string>
     <string name="pay">Pay Now!</string>
     <string name="paymentfailed">Payment Failed. %s</string>

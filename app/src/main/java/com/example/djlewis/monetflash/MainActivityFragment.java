@@ -28,7 +28,8 @@ import mehdi.sakout.fancybuttons.FancyButton;
 import utility.Utility;
 
 /**
- * A placeholder fragment containing a simple view.
+ * @author Larry Akah
+ * Main application fragment. Process business logic and user interaction.
  */
 public class MainActivityFragment extends Fragment implements View.OnClickListener{
 
@@ -137,6 +138,10 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
             break;
             //payButton action
             case R.id.buttonpay: {
+                if (!Utility.isNetworkAvailable(getActivity())){
+                    Utility.showMessage(rootView, getString(R.string.networkerror));
+                    return;
+                }
                 //get subscriber's phone number
                // TelephonyManager telephonyManager = (TelephonyManager) getActivity().getSystemService(Context.TELEPHONY_SERVICE);
                 long p = PreferenceManager.getDefaultSharedPreferences(getActivity()).getLong(Utility.APP_NUMBER, 237);

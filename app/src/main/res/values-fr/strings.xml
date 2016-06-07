@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Parametres</string>
+    <string name="pay">Payer!</string>
+    <string name="phonehint">Numéro Mobile Money</string>
+    <string name="amounttopayhint">Montant a payer (FCFA)</string>
+    <string name="app_name_label">MonetFlash - Paiements</string>
+    <string name="transactions">MonetFlash - Transactions</string>
+    <string name="businessname">Nom d\'entreprise</string>
+    <string name="intro">Avec {{@string/app_name}}, tout vos clients paient sans soucci!</string>
+    <string name="Sigup">Configurer vos données</string>
+    <string name="numbernotavailable">Numéro d\'entreprise non disponible.</string>
+    <string name="startpayment">Paiement en cours</string>
+    <string name="paymentmessage">Requete de paiment est en cours. Veuilllez utiliser votre téléphone pour authorisé la transaction rapidement avant 2 minutes avec FurtherMarket</string>
+    <string name="finished">Status de Paiement</string>
+    <string name="paymentfailed">Paiement echoué. %s</string>
+    <string name="paymentsuccess">Paiement effectuer avec succes</string>
+    <string name="businessphone">Numéro d\'affaire (Mobile Money)</string>
+    <string name="action_history">Historique</string>
+    <string name="networkerror">Pas de connexion internet. Veuillez connecter l\'appareille a internet pour effectuer les paiements</string>
+</resources>

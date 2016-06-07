@@ -18,4 +18,5 @@
     <string name="paymentsuccess">Payment Received Successfully</string>
     <string name="businessphone">Business phone (Mobile Money)</string>
     <string name="action_history">History</string>
+    <string name="networkerror">There is no internet connection</string>
 </resources>
