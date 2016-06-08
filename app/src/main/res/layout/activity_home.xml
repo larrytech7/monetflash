@@ -19,7 +19,8 @@
         android:text="@string/payment_method"
         android:id="@+id/textView2"
         android:layout_gravity="center_horizontal"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:textAlignment="center" />
 
     <FrameLayout
         android:layout_width="match_parent"
