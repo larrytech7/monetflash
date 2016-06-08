@@ -2730,8 +2730,8 @@ containing a value of this type.
         public static final int buttonThree=0x7f0d0098;
         public static final int buttonTwo=0x7f0d0097;
         public static final int buttonZero=0x7f0d009d;
-        public static final int buttonmastercard=0x7f0d0070;
-        public static final int buttonmomo=0x7f0d006e;
+        public static final int buttonmastercard=0x7f0d006e;
+        public static final int buttonmomo=0x7f0d0070;
         public static final int buttonpay=0x7f0d0095;
         public static final int cancel_action=0x7f0d00a3;
         public static final int cancel_button=0x7f0d0085;
@@ -2779,8 +2779,8 @@ containing a value of this type.
         public static final int ifRoom=0x7f0d0035;
         public static final int image=0x7f0d0042;
         public static final int imageView=0x7f0d0074;
-        public static final int imageView2=0x7f0d006d;
-        public static final int imagemc=0x7f0d006f;
+        public static final int imageView2=0x7f0d006f;
+        public static final int imagemc=0x7f0d006d;
         public static final int info=0x7f0d00ad;
         public static final int item_touch_helper_previous_elevation=0x7f0d0005;
         public static final int left=0x7f0d0023;

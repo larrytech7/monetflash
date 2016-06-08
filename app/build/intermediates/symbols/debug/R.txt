@@ -710,8 +710,8 @@ int id buttonSix 0x7f0d009c
 int id buttonThree 0x7f0d0098
 int id buttonTwo 0x7f0d0097
 int id buttonZero 0x7f0d009d
-int id buttonmastercard 0x7f0d0070
-int id buttonmomo 0x7f0d006e
+int id buttonmastercard 0x7f0d006e
+int id buttonmomo 0x7f0d0070
 int id buttonpay 0x7f0d0095
 int id cancel_action 0x7f0d00a3
 int id cancel_button 0x7f0d0085
@@ -759,8 +759,8 @@ int id icon 0x7f0d0045
 int id ifRoom 0x7f0d0035
 int id image 0x7f0d0042
 int id imageView 0x7f0d0074
-int id imageView2 0x7f0d006d
-int id imagemc 0x7f0d006f
+int id imageView2 0x7f0d006f
+int id imagemc 0x7f0d006d
 int id info 0x7f0d00ad
 int id item_touch_helper_previous_elevation 0x7f0d0005
 int id left 0x7f0d0023

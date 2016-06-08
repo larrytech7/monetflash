@@ -21,6 +21,7 @@ public class MasterCardScanActivity extends AppCompatActivity implements CardNfc
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_master_card_scan);
+        Log.d(LOG_NFC, "Oncreate");
         mNfcAdapter = NfcAdapter.getDefaultAdapter(this);
         if (mNfcAdapter == null){
             //do something if there are no nfc module on device
@@ -38,17 +39,21 @@ public class MasterCardScanActivity extends AppCompatActivity implements CardNfc
     @Override
     protected void onResume() {
         super.onResume();
+        Log.d(LOG_NFC, "OnREsume");
         mIntentFromCreate = false;
         if (mNfcAdapter != null && !mNfcAdapter.isEnabled()){
-            //show some turn on nfc dialog here. take a look in the samle ;-)
+            //show some turn on nfc dialog here. take a look in the sample
+            Log.d(LOG_NFC, "NFC Adapter off");
         } else if (mNfcAdapter != null){
             mCardNfcUtils.enableDispatch();
+            Log.d(LOG_NFC,"Adapter set ON");
         }
     }
 
     @Override
     public void onPause() {
         super.onPause();
+        Log.d(LOG_NFC, "OnPasue");
         if (mNfcAdapter != null) {
             mCardNfcUtils.disableDispatch();
         }
@@ -57,6 +62,7 @@ public class MasterCardScanActivity extends AppCompatActivity implements CardNfc
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
+        Log.d(LOG_NFC,"OnNew Intent");
         if (mNfcAdapter != null && mNfcAdapter.isEnabled()) {
             mCardNfcAsyncTask = new CardNfcAsyncTask.Builder(this, intent, mIntentFromCreate)
                     .build();

@@ -32,9 +32,7 @@
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="com.example.djlewis.monetflash.WelcomeActivity"
-            android:configChanges="keyboardHidden|orientation"
-            android:label="@string/welcome"
-            android:screenOrientation="portrait" >
+            android:label="@string/welcome" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

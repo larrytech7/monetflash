@@ -28,9 +28,9 @@
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".WelcomeActivity"
-            android:configChanges="keyboardHidden|orientation"
+
             android:label="@string/welcome"
-            android:screenOrientation="portrait">
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
