@@ -9,7 +9,7 @@
     <string name="transactions">MonetFlash - Transactions</string>
     <string name="businessname">Enter the name of the Business</string>
     <string name="intro">With Monetflash, every client has a way to pay You!</string>
-    <string name="Sigup">Setup Payment</string>
+    <string name="Sigup">Save</string>
     <string name="numbernotavailable">Business Phone Number unavailable</string>
     <string name="startpayment">Making payment</string>
     <string name="paymentmessage">Payment request is being made. Please use your mobile and authenticate within 2 minutes. Funds may be requested by FurtherMarket</string>
@@ -19,4 +19,7 @@
     <string name="businessphone">Business phone (Mobile Money)</string>
     <string name="action_history">History</string>
     <string name="networkerror">There is no internet connection</string>
+    <string name="payment_method" translatable="false">Select your payment method</string>
+    <string name="select_momo" translatable="false">Mobile Money</string>
+    <string name="select_mc" translatable="false">VISA | Master Card</string>
 </resources>

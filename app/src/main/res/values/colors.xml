@@ -6,4 +6,5 @@
     <color name="white">#fff</color>
     <color name="green">#0fd436</color>
     <color name="purple">#c20586</color>
+    <color name="colorBtnBg">#00897B</color>
 </resources>

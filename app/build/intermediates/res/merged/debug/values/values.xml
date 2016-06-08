@@ -34,6 +34,7 @@
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="button_text_color">#FFFFFF</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorBtnBg">#00897B</color>
     <color name="colorPrimary">#3f51b5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
@@ -289,7 +290,7 @@
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="LOADING">Loading...</string>
-    <string name="Sigup">Setup Payment</string>
+    <string name="Sigup">Save</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -327,10 +328,13 @@
     <string name="networkerror">There is no internet connection</string>
     <string name="numbernotavailable">Business Phone Number unavailable</string>
     <string name="pay">Pay Now!</string>
+    <string name="payment_method" translatable="false">Select your payment method</string>
     <string name="paymentfailed">Payment Failed. %s</string>
     <string name="paymentmessage">Payment request is being made. Please use your mobile and authenticate within 2 minutes. Funds may be requested by FurtherMarket</string>
     <string name="paymentsuccess">Payment Received Successfully</string>
     <string name="phonehint">Mobile Money number</string>
+    <string name="select_mc" translatable="false">VISA | Master Card</string>
+    <string name="select_momo" translatable="false">Mobile Money</string>
     <string name="startpayment">Making payment</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="transactions">MonetFlash - Transactions</string>

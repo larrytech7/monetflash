@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Sigup">Configurer vos données</string>
+    <string name="Sigup">Sauvegarder</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
@@ -27,14 +27,16 @@
     <string name="businessname">Nom d\'entreprise</string>
     <string name="businessphone">Numéro d\'affaire (Mobile Money)</string>
     <string name="finished">Status de Paiement</string>
-    <string name="intro">Avec {{@string/app_name}}, tout vos clients paient sans soucci!</string>
+    <string name="intro">Avec MonetFlash, tout vos clients paient sans soucci!</string>
     <string name="networkerror">Pas de connexion internet. Veuillez connecter l\'appareille a internet pour effectuer les paiements</string>
     <string name="numbernotavailable">Numéro d\'entreprise non disponible.</string>
     <string name="pay">Payer!</string>
+    <string name="payment_method" translatable="false">Choissiser votre mode de paiement</string>
     <string name="paymentfailed">Paiement echoué. %s</string>
     <string name="paymentmessage">Requete de paiment est en cours. Veuilllez utiliser votre téléphone pour authorisé la transaction rapidement avant 2 minutes avec FurtherMarket</string>
     <string name="paymentsuccess">Paiement effectuer avec succes</string>
     <string name="phonehint">Numéro Mobile Money</string>
+    <string name="select_mc"/>
     <string name="startpayment">Paiement en cours</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
     <string name="transactions">MonetFlash - Transactions</string>

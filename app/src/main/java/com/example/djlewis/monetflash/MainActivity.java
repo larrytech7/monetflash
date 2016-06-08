@@ -28,10 +28,12 @@ public class MainActivity extends AppCompatActivity {
         super.onPause();
     }
 
+    /*
     @Override
     public void onBackPressed() {
         //DO NOTHING
     }
+    */
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

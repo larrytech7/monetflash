@@ -37,7 +37,7 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
                     .putBoolean(Utility.APP_AUTH, true)
                     .putLong(Utility.APP_NUMBER, Long.parseLong(businessPhone.getText().toString()))
                     .commit();
-            Intent homeintent = new Intent(this, MainActivity.class);
+            Intent homeintent = new Intent(this, HomeActivity.class);
             homeintent.putExtra(Utility.APP_USER, name);
             startActivity(homeintent);
             finish();
@@ -51,7 +51,7 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
         boolean issetup = PreferenceManager.getDefaultSharedPreferences(this).getBoolean(Utility.APP_AUTH, false);
         String name = PreferenceManager.getDefaultSharedPreferences(this).getString(Utility.APP_USER, "Unknown");
         if(issetup) {
-            Intent homeintent = new Intent(this, MainActivity.class);
+            Intent homeintent = new Intent(this, HomeActivity.class);
             homeintent.putExtra(Utility.APP_USER, name);
             startActivity(homeintent);
         }

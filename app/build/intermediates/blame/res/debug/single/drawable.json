@@ -20,6 +20,10 @@
         "source": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.3/res/drawable/error_center_x.xml"
     },
     {
+        "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable/mastercard.png",
+        "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/drawable/mastercard.png"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable/rounded_button_danger.xml",
         "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/drawable/rounded_button_danger.xml"
     },
@@ -64,8 +68,16 @@
         "source": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.3/res/drawable/error_circle.xml"
     },
     {
+        "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable/mtnmomo.jpg",
+        "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/drawable/mtnmomo.jpg"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
         "source": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable/vmastercard.jpg",
+        "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/drawable/vmastercard.jpg"
     },
     {
         "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",

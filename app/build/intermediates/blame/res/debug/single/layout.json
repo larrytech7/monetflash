@@ -40,6 +40,10 @@
         "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/layout/activity_welcome.xml"
     },
     {
+        "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/layout/activity_home.xml",
+        "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/layout/activity_home.xml"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
         "source": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_item_subheader.xml"
     },
@@ -218,5 +222,9 @@
     {
         "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
         "source": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/layout/activity_master_card_scan.xml",
+        "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/layout/activity_master_card_scan.xml"
     }
 ]

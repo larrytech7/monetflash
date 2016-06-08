@@ -7,8 +7,8 @@
     <string name="app_name_label">MonetFlash - Paiements</string>
     <string name="transactions">MonetFlash - Transactions</string>
     <string name="businessname">Nom d\'entreprise</string>
-    <string name="intro">Avec {{@string/app_name}}, tout vos clients paient sans soucci!</string>
-    <string name="Sigup">Configurer vos données</string>
+    <string name="intro">Avec MonetFlash, tout vos clients paient sans soucci!</string>
+    <string name="Sigup">Sauvegarder</string>
     <string name="numbernotavailable">Numéro d\'entreprise non disponible.</string>
     <string name="startpayment">Paiement en cours</string>
     <string name="paymentmessage">Requete de paiment est en cours. Veuilllez utiliser votre téléphone pour authorisé la transaction rapidement avant 2 minutes avec FurtherMarket</string>
@@ -18,4 +18,6 @@
     <string name="businessphone">Numéro d\'affaire (Mobile Money)</string>
     <string name="action_history">Historique</string>
     <string name="networkerror">Pas de connexion internet. Veuillez connecter l\'appareille a internet pour effectuer les paiements</string>
+    <string name="payment_method" translatable="false">Choissiser votre mode de paiement</string>
+    <string name="select_mc"></string>
 </resources>
