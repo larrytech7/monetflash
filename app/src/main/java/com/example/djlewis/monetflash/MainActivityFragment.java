@@ -33,6 +33,7 @@ import utility.Utility;
  */
 public class MainActivityFragment extends Fragment implements View.OnClickListener{
 
+    private static final String LOGTAG = MainActivityFragment.class.getSimpleName();
     private View rootView;
     private Button buttonCancel; //cancels a digit from current filed when clicked
     private Button buttonBack; //move to next field when clicked
@@ -240,6 +241,7 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
                                         //stop the sweetdialog and clear fields
                                         String message = getContext().getString(R.string.paymentfailed, e.getLocalizedMessage());
                                         Utility.getInstance(getActivity()).stopPaymentDialog(sw, message, false);
+                                        Log.d(LOGTAG, message);
                                     }
                                 }
                             });
