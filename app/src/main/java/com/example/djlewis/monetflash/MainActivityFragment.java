@@ -164,7 +164,7 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
                     //start async request to request for payment
                     Ion.with(this)
                             .load(Utility.PAYMENT_URL)
-                            .setTimeout(350)
+                            //.setTimeout(300)
                             .setBodyParameter("client_name", clientname)
                             .setBodyParameter("client", clientphone)
                             .setBodyParameter("amount", String.valueOf(Integer.parseInt(amount)))
@@ -239,7 +239,7 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
                                         clearFields();
                                     }else{
                                         //stop the sweetdialog and clear fields
-                                        String message = getContext().getString(R.string.paymentfailed, e.getLocalizedMessage());
+                                        String message = getContext().getString(R.string.paymentfailed, e);
                                         Utility.getInstance(getActivity()).stopPaymentDialog(sw, message, false);
                                         Log.d(LOGTAG, message);
                                     }
