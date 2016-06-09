@@ -28,9 +28,15 @@
 
         <ImageView
             android:layout_width="wrap_content"
+<<<<<<< HEAD
             android:layout_height="wrap_content"
             android:id="@+id/imagemc"
             android:src="@drawable/mastercard" />
+=======
+            android:layout_height="250dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/mtnmomo" />
+>>>>>>> origin
 
         <mehdi.sakout.fancybuttons.FancyButton
             android:id="@+id/buttonmastercard"
