@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/common_circle_width"
+    android:paddingRight="@dimen/common_circle_width"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.djlewis.monetflash.HomeActivity">
 
@@ -22,53 +22,30 @@
         android:textSize="25dp"
         android:textAlignment="center" />
 
-    <FrameLayout
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/select_mc">
 
         <ImageView
             android:layout_width="wrap_content"
-<<<<<<< HEAD
             android:layout_height="wrap_content"
-            android:id="@+id/imagemc"
-            android:src="@drawable/mastercard" />
-=======
-            android:layout_height="250dp"
-            android:id="@+id/imageView2"
-            android:src="@drawable/mtnmomo" />
->>>>>>> origin
-
-        <mehdi.sakout.fancybuttons.FancyButton
-            android:id="@+id/buttonmastercard"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="15dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:paddingTop="15dp"
-            fancy:fb_borderColor="#FFFFFF"
-            fancy:fb_borderWidth="1dp"
-            fancy:fb_defaultColor="@color/colorPrimary"
-            fancy:fb_focusColor="@color/colorBtnBg"
-            fancy:fb_iconResource="@drawable/ic_ok"
-            fancy:fb_iconPosition="left"
-            fancy:fb_radius="30dp"
-            fancy:fb_text="@string/select_mc"
-            fancy:fb_textColor="#FFFFFF"
-            android:layout_gravity="center_horizontal|bottom" />
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
+            android:id="@+id/buttonmtn_momo"
+            android:src="@drawable/mtnmomo"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:contentDescription="@string/select_momo" />
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="250dp"
-            android:id="@+id/imageView2"
-            android:src="@drawable/mtnmomo" />
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonorange_momo"
+            android:src="@drawable/omoney"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:contentDescription="@string/select_momo" />
 
-        <mehdi.sakout.fancybuttons.FancyButton
+<!--        <mehdi.sakout.fancybuttons.FancyButton
             android:id="@+id/buttonmomo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -85,7 +62,42 @@
             fancy:fb_radius="30dp"
             fancy:fb_text="@string/select_momo"
             fancy:fb_textColor="#FFFFFF"
-            android:layout_gravity="center_horizontal|bottom" />
+            android:layout_gravity="center_horizontal|bottom" />-->
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonmastercard"
+            android:src="@drawable/mastercard"
+            android:contentDescription="@string/select_mc" />
+
+        android:layout_height="250dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/mtnmomo" />
+
+        <!--<mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/buttonmastercard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="@color/colorPrimary"
+            fancy:fb_focusColor="@color/colorBtnBg"
+            fancy:fb_iconResource="@drawable/ic_ok"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            fancy:fb_text="@string/select_mc"
+            fancy:fb_textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal|bottom" />-->
     </FrameLayout>
 
 </LinearLayout>

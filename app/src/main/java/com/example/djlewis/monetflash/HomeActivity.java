@@ -2,34 +2,40 @@ package com.example.djlewis.monetflash;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.ImageView;
 
-import mehdi.sakout.fancybuttons.FancyButton;
 import utility.Utility;
 
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener{
 
-    FancyButton buttonMomo, buttonMasterCard;
+    ImageView buttonMomo;
+    ImageView buttonMasterCard;
     String businessname;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        buttonMomo = (FancyButton) findViewById(R.id.buttonmomo);
-        buttonMasterCard = (FancyButton) findViewById(R.id.buttonmastercard);
+        ActionBar actionBar = getSupportActionBar();
+        buttonMomo = (ImageView) findViewById(R.id.buttonmtn_momo);
+        buttonMasterCard = (ImageView) findViewById(R.id.buttonmastercard);
 
         buttonMomo.setOnClickListener(this);
         buttonMasterCard.setOnClickListener(this);
         businessname  = getIntent().getStringExtra(Utility.APP_USER);
+
+        actionBar.setTitle(getString(R.string.paymentconsole, businessname));
     }
 
     @Override
     public void onClick(View v) {
         int id = v.getId();
         switch (id){
-            case R.id.buttonmomo:{
+            case R.id.buttonmtn_momo:{
                 //start Momo Activity
                 Intent momointent = new Intent(this, MainActivity.class);
                 momointent.putExtra(Utility.APP_USER, businessname);
@@ -43,6 +49,10 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(masterc_intent);
             }
                 break;
+            case R.id.buttonorange_momo:{
+                Snackbar.make(buttonMasterCard, R.string.comingsoon, Snackbar.LENGTH_LONG).show();
+            }
+            break;
         }
     }
 }

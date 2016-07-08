@@ -5,27 +5,36 @@ import android.nfc.NfcAdapter;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.Toast;
 
 import com.pro100svitlo.creditCardNfcReader.CardNfcAsyncTask;
 import com.pro100svitlo.creditCardNfcReader.utils.CardNfcUtils;
 
-public class MasterCardScanActivity extends AppCompatActivity implements CardNfcAsyncTask.CardNfcInterface {
+import cn.pedant.SweetAlert.SweetAlertDialog;
+import mehdi.sakout.fancybuttons.FancyButton;
+
+public class MasterCardScanActivity extends AppCompatActivity implements CardNfcAsyncTask.CardNfcInterface, View.OnClickListener {
 
     private NfcAdapter mNfcAdapter;
     private CardNfcUtils mCardNfcUtils;
     private boolean mIntentFromCreate;
     private CardNfcAsyncTask mCardNfcAsyncTask;
     public static final String LOG_NFC = MasterCardScanActivity.class.getCanonicalName();
+    private FancyButton scanButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_master_card_scan);
+        scanButton = (FancyButton) findViewById(R.id.scan_button);
+        scanButton.setOnClickListener(this);
         Log.d(LOG_NFC, "Oncreate");
         mNfcAdapter = NfcAdapter.getDefaultAdapter(this);
         if (mNfcAdapter == null){
             //do something if there are no nfc module on device
             Log.d(LOG_NFC, "No NFC on Device");
+            Toast.makeText(this, getString(R.string.nfcnotavailable), Toast.LENGTH_LONG).show();
         } else {
             //do something if there are nfc module on device
 
@@ -39,7 +48,6 @@ public class MasterCardScanActivity extends AppCompatActivity implements CardNfc
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d(LOG_NFC, "OnREsume");
         mIntentFromCreate = false;
         if (mNfcAdapter != null && !mNfcAdapter.isEnabled()){
             //show some turn on nfc dialog here. take a look in the sample
@@ -47,6 +55,7 @@ public class MasterCardScanActivity extends AppCompatActivity implements CardNfc
         } else if (mNfcAdapter != null){
             mCardNfcUtils.enableDispatch();
             Log.d(LOG_NFC,"Adapter set ON");
+            scan();
         }
     }
 
@@ -101,5 +110,29 @@ public class MasterCardScanActivity extends AppCompatActivity implements CardNfc
     @Override
     public void finishNfcReadCard() {
         Log.d(LOG_NFC, "Finish NFC Card Read");
+    }
+
+    @Override
+    public void onClick(View v) {
+        if (v.getId() == R.id.scan_button){
+            scan();
+        }
+    }
+
+    private void scan() {
+        //start progress dialog here
+        SweetAlertDialog progressdialog  = new SweetAlertDialog(this, SweetAlertDialog.PROGRESS_TYPE);
+        progressdialog.setTitleText(getString(R.string.scanning));
+        progressdialog.setContentText(getString(R.string.scan_info));
+        progressdialog.setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+            @Override
+            public void onClick(SweetAlertDialog sweetAlertDialog) {
+                sweetAlertDialog.dismiss();
+                sweetAlertDialog.cancel();
+            }
+        });
+        progressdialog.setCancelable(true);
+        progressdialog.setCanceledOnTouchOutside(true);
+        progressdialog.show();
     }
 }

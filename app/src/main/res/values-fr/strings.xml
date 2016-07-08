@@ -18,6 +18,7 @@
     <string name="businessphone">Numéro d\'affaire (Mobile Money)</string>
     <string name="action_history">Historique</string>
     <string name="networkerror">Pas de connexion internet. Veuillez connecter l\'appareille a internet pour effectuer les paiements</string>
-    <string name="payment_method" translatable="false">Choissiser votre mode de paiement</string>
+    <string name="payment_method">Choissiser votre mode de paiement</string>
     <string name="select_mc"></string>
+    <string name="paymentconsole">%s - Console de paiement</string>
 </resources>

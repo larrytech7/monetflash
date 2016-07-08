@@ -19,7 +19,14 @@
     <string name="businessphone">Business phone (Mobile Money)</string>
     <string name="action_history">History</string>
     <string name="networkerror">There is no internet connection</string>
-    <string name="payment_method" translatable="false">Select your payment method</string>
+    <string name="payment_method">Select your payment method</string>
     <string name="select_momo" translatable="false">Mobile Money</string>
     <string name="select_mc" translatable="false">VISA | Master Card</string>
+    <string name="paymentconsole">%s - Payment Console</string>
+    <string name="comingsoon">Coming Soon</string>
+    <string name="nfcnotavailable">No NFC on this device.</string>
+    <string name="scan">Scan again!</string>
+    <string name="scan_info">Place your NFC enabled card steadily at the back of the device.</string>
+    <string name="scanning">Scanning Cards</string>
+
 </resources>

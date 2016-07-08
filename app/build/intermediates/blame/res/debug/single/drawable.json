@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable/scan.jpg",
+        "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/drawable/scan.jpg"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_item_background_holo_light.xml"
     },
@@ -10,6 +14,10 @@
     {
         "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
         "source": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable/orngmoney.jpeg",
+        "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/drawable/orngmoney.jpeg"
     },
     {
         "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
@@ -42,6 +50,10 @@
     {
         "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable/omoney.jpg",
+        "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/drawable/omoney.jpg"
     },
     {
         "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
