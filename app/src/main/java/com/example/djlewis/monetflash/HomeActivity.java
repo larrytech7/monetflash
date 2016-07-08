@@ -12,7 +12,7 @@ import utility.Utility;
 
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener{
 
-    ImageView buttonMomo;
+    ImageView buttonMomo, buttonOrangeMomo;
     ImageView buttonMasterCard;
     String businessname;
 
@@ -23,8 +23,10 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         ActionBar actionBar = getSupportActionBar();
         buttonMomo = (ImageView) findViewById(R.id.buttonmtn_momo);
         buttonMasterCard = (ImageView) findViewById(R.id.buttonmastercard);
+        buttonOrangeMomo = (ImageView) findViewById(R.id.buttonorange_momo);
 
         buttonMomo.setOnClickListener(this);
+        buttonOrangeMomo.setOnClickListener(this);
         buttonMasterCard.setOnClickListener(this);
         businessname  = getIntent().getStringExtra(Utility.APP_USER);
 

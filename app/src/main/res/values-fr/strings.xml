@@ -21,4 +21,9 @@
     <string name="payment_method">Choissiser votre mode de paiement</string>
     <string name="select_mc"></string>
     <string name="paymentconsole">%s - Console de paiement</string>
+    <string name="comingsoon">Bientot la</string>
+    <string name="nfcnotavailable">Aucun module NFC trouver sur cet appareile</string>
+    <string name="scan">Scanner encore!</string>
+    <string name="scan_info">Place votre carte NFC a l\'arriere de l\'appareile</string>
+    <string name="scanning">Scan en cours</string>
 </resources>

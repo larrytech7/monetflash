@@ -337,6 +337,8 @@
     <string name="paymentsuccess">Payment Received Successfully</string>
     <string name="phonehint">Mobile Money number</string>
     <string name="scan">Scan again!</string>
+    <string name="scan_info">Place your NFC enabled card steadily at the back of the device.</string>
+    <string name="scanning">Scanning Cards</string>
     <string name="select_mc" translatable="false">VISA | Master Card</string>
     <string name="select_momo" translatable="false">Mobile Money</string>
     <string name="startpayment">Making payment</string>
