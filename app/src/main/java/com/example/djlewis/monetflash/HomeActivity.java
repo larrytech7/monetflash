@@ -8,11 +8,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 
+import mehdi.sakout.fancybuttons.FancyButton;
 import utility.Utility;
 
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener{
 
-    ImageView buttonMomo, buttonOrangeMomo;
+    FancyButton buttonMomo, buttonOrangeMomo;
     ImageView buttonMasterCard;
     String businessname;
 
@@ -21,9 +22,9 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         ActionBar actionBar = getSupportActionBar();
-        buttonMomo = (ImageView) findViewById(R.id.buttonmtn_momo);
+        buttonMomo = (FancyButton) findViewById(R.id.buttonmtn_momo);
         buttonMasterCard = (ImageView) findViewById(R.id.buttonmastercard);
-        buttonOrangeMomo = (ImageView) findViewById(R.id.buttonorange_momo);
+        buttonOrangeMomo = (FancyButton) findViewById(R.id.buttonorange_momo);
 
         buttonMomo.setOnClickListener(this);
         buttonOrangeMomo.setOnClickListener(this);

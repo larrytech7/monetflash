@@ -22,6 +22,74 @@
         android:textSize="25dp"
         android:textAlignment="center" />
 
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/buttonmtn_momo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        fancy:fb_borderColor="@color/colorPrimary"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="@color/yellow"
+        fancy:fb_focusColor="@color/yellow"
+        fancy:fb_iconResource="@drawable/ic_payment_white_18dp"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="@string/mtnmomo"
+        fancy:fb_textColor="#000"
+        android:layout_gravity="center_horizontal"/>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/buttonorange_momo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        fancy:fb_borderColor="@color/colorPrimary"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="@color/orange"
+        fancy:fb_focusColor="@color/yellow"
+        fancy:fb_iconResource="@drawable/ic_payment_white_18dp"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="@string/orangemo"
+        fancy:fb_textColor="#000"
+        android:layout_gravity="center_horizontal"/>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/buttonmastercard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        fancy:fb_borderColor="@color/colorPrimary"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="@color/colorPrimary"
+        fancy:fb_focusColor="@color/yellow"
+        fancy:fb_iconResource="@drawable/ic_payment_white_18dp"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="@string/creditcard"
+        fancy:fb_textColor="#000"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/partners"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"/>
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -31,7 +99,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonmtn_momo"
+            android:id="@+id/imgmtn_momo"
             android:src="@drawable/mtnmomo"
             android:layout_weight="1"
             android:layout_marginRight="2dp"
@@ -39,65 +107,18 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonorange_momo"
+            android:id="@+id/imgorange_momo"
             android:src="@drawable/omoney"
             android:layout_weight="1"
             android:layout_marginLeft="2dp"
             android:contentDescription="@string/select_momo" />
-
-<!--        <mehdi.sakout.fancybuttons.FancyButton
-            android:id="@+id/buttonmomo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="15dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:paddingTop="15dp"
-            fancy:fb_borderColor="#FFFFFF"
-            fancy:fb_borderWidth="1dp"
-            fancy:fb_defaultColor="@color/colorPrimary"
-            fancy:fb_focusColor="@color/colorBtnBg"
-            fancy:fb_iconResource="@drawable/ic_ok"
-            fancy:fb_iconPosition="left"
-            fancy:fb_radius="30dp"
-            fancy:fb_text="@string/select_momo"
-            fancy:fb_textColor="#FFFFFF"
-            android:layout_gravity="center_horizontal|bottom" />-->
-    </LinearLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonmastercard"
+            android:id="@+id/imgmastercard"
             android:src="@drawable/mastercard"
+            android:layout_weight="1"
             android:contentDescription="@string/select_mc" />
-
-        android:layout_height="250dp"
-        android:id="@+id/imageView2"
-        android:src="@drawable/mtnmomo" />
-
-        <!--<mehdi.sakout.fancybuttons.FancyButton
-            android:id="@+id/buttonmastercard"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="15dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:paddingTop="15dp"
-            fancy:fb_borderColor="#FFFFFF"
-            fancy:fb_borderWidth="1dp"
-            fancy:fb_defaultColor="@color/colorPrimary"
-            fancy:fb_focusColor="@color/colorBtnBg"
-            fancy:fb_iconResource="@drawable/ic_ok"
-            fancy:fb_iconPosition="left"
-            fancy:fb_radius="30dp"
-            fancy:fb_text="@string/select_mc"
-            fancy:fb_textColor="#FFFFFF"
-            android:layout_gravity="center_horizontal|bottom" />-->
-    </FrameLayout>
+    </LinearLayout>
 
 </LinearLayout>

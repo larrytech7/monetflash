@@ -28,5 +28,9 @@
     <string name="scan">Scan again!</string>
     <string name="scan_info">Place your NFC enabled card steadily at the back of the device.</string>
     <string name="scanning">Scanning Cards</string>
+    <string name="mtnmomo">MTN MoMo</string>
+    <string name="orangemo">Orange Money</string>
+    <string name="creditcard">Credit/Mastercard</string>
+    <string name="partners">Our Partners</string>
 
 </resources>
