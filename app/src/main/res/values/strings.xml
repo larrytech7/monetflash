@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Monetflash</string>
+    <string name="app_name" translatable="false">InstaPay</string>
     <string name="action_settings">Settings</string>
     <string name="pay">Pay Now!</string>
     <string name="phonehint">Mobile Money number</string>
