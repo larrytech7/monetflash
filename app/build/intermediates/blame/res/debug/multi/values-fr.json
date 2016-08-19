@@ -11,7 +11,14 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 554,
+                        "endColumn": 45,
+                        "endOffset": 595
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 207
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 110,
+                        "endOffset": 161
+                    }
                 }
             },
             {
@@ -35,7 +49,14 @@
                     "endOffset": 315
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 166,
+                        "endColumn": 107,
+                        "endOffset": 269
+                    }
                 }
             },
             {
@@ -47,7 +68,14 @@
                     "endOffset": 438
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 122,
+                        "endOffset": 392
+                    }
                 }
             },
             {
@@ -59,7 +87,14 @@
                     "endOffset": 553
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 397,
+                        "endColumn": 114,
+                        "endOffset": 507
+                    }
                 }
             },
             {
@@ -71,7 +106,14 @@
                     "endOffset": 664
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 512,
+                        "endColumn": 110,
+                        "endOffset": 618
+                    }
                 }
             },
             {
@@ -83,7 +125,14 @@
                     "endOffset": 746
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 623,
+                        "endColumn": 81,
+                        "endOffset": 700
+                    }
                 }
             },
             {
@@ -95,7 +144,14 @@
                     "endOffset": 852
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 705,
+                        "endColumn": 105,
+                        "endOffset": 806
+                    }
                 }
             },
             {
@@ -107,7 +163,14 @@
                     "endOffset": 982
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 811,
+                        "endColumn": 129,
+                        "endOffset": 936
+                    }
                 }
             },
             {
@@ -119,7 +182,14 @@
                     "endOffset": 1065
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 941,
+                        "endColumn": 82,
+                        "endOffset": 1019
+                    }
                 }
             },
             {
@@ -131,7 +201,14 @@
                     "endOffset": 1145
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1024,
+                        "endColumn": 79,
+                        "endOffset": 1099
+                    }
                 }
             },
             {
@@ -143,7 +220,14 @@
                     "endOffset": 1231
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1104,
+                        "endColumn": 85,
+                        "endOffset": 1185
+                    }
                 }
             },
             {
@@ -155,7 +239,14 @@
                     "endOffset": 1341
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1190,
+                        "endColumn": 109,
+                        "endOffset": 1295
+                    }
                 }
             },
             {
@@ -167,7 +258,14 @@
                     "endOffset": 1453
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1300,
+                        "endColumn": 111,
+                        "endOffset": 1407
+                    }
                 }
             },
             {
@@ -179,7 +277,14 @@
                     "endOffset": 1556
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1412,
+                        "endColumn": 102,
+                        "endOffset": 1510
+                    }
                 }
             },
             {
@@ -191,7 +296,14 @@
                     "endOffset": 1667
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1515,
+                        "endColumn": 110,
+                        "endOffset": 1621
+                    }
                 }
             },
             {
@@ -203,7 +315,14 @@
                     "endOffset": 1774
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1626,
+                        "endColumn": 106,
+                        "endOffset": 1728
+                    }
                 }
             },
             {
@@ -215,7 +334,14 @@
                     "endOffset": 1881
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1733,
+                        "endColumn": 106,
+                        "endOffset": 1835
+                    }
                 }
             },
             {
@@ -227,7 +353,14 @@
                     "endOffset": 2003
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1840,
+                        "endColumn": 121,
+                        "endOffset": 1957
+                    }
                 }
             },
             {
@@ -239,7 +372,14 @@
                     "endOffset": 2102
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1962,
+                        "endColumn": 98,
+                        "endOffset": 2056
+                    }
                 }
             },
             {
@@ -251,7 +391,14 @@
                     "endOffset": 2156
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1197,
+                        "endColumn": 53,
+                        "endOffset": 1246
+                    }
                 }
             },
             {
@@ -263,7 +410,14 @@
                     "endOffset": 2211
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 54,
+                        "endOffset": 105
+                    }
                 }
             },
             {
@@ -275,7 +429,14 @@
                     "endOffset": 2278
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 207,
+                        "endColumn": 66,
+                        "endOffset": 269
+                    }
                 }
             },
             {
@@ -287,7 +448,14 @@
                     "endOffset": 2344
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 65,
+                        "endOffset": 335
+                    }
                 }
             },
             {
@@ -299,7 +467,14 @@
                     "endOffset": 2403
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 407,
+                        "endColumn": 58,
+                        "endOffset": 461
+                    }
                 }
             },
             {
@@ -311,7 +486,14 @@
                     "endOffset": 2478
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1122,
+                        "endColumn": 74,
+                        "endOffset": 1192
+                    }
                 }
             },
             {
@@ -342,7 +524,14 @@
                     "endOffset": 2584
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 930,
+                        "endColumn": 55,
+                        "endOffset": 981
+                    }
                 }
             },
             {
@@ -354,7 +543,14 @@
                     "endOffset": 2672
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 466,
+                        "endColumn": 87,
+                        "endOffset": 549
+                    }
                 }
             },
             {
@@ -366,7 +562,14 @@
                     "endOffset": 2813
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1251,
+                        "endColumn": 140,
+                        "endOffset": 1387
+                    }
                 }
             },
             {
@@ -397,7 +600,14 @@
                     "endOffset": 2984
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 600,
+                        "endColumn": 83,
+                        "endOffset": 679
+                    }
                 }
             },
             {
@@ -409,7 +619,14 @@
                     "endOffset": 3023
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 110,
+                        "endColumn": 38,
+                        "endOffset": 144
+                    }
                 }
             },
             {
@@ -421,7 +638,14 @@
                     "endOffset": 3100
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1392,
+                        "endColumn": 76,
+                        "endOffset": 1464
+                    }
                 }
             },
             {
@@ -433,7 +657,14 @@
                     "endOffset": 3168
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1508,
+                        "endColumn": 67,
+                        "endOffset": 1571
+                    }
                 }
             },
             {
@@ -445,7 +676,14 @@
                     "endOffset": 3230
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 986,
+                        "endColumn": 61,
+                        "endOffset": 1043
+                    }
                 }
             },
             {
@@ -457,7 +695,14 @@
                     "endOffset": 3417
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 743,
+                        "endColumn": 186,
+                        "endOffset": 925
+                    }
                 }
             },
             {
@@ -469,7 +714,14 @@
                     "endOffset": 3491
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1048,
+                        "endColumn": 73,
+                        "endOffset": 1117
+                    }
                 }
             },
             {
@@ -481,7 +733,14 @@
                     "endOffset": 3549
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 149,
+                        "endColumn": 57,
+                        "endOffset": 202
+                    }
                 }
             },
             {
@@ -550,7 +809,14 @@
                     "endOffset": 3769
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1469,
+                        "endColumn": 38,
+                        "endOffset": 1503
+                    }
                 }
             },
             {
@@ -562,7 +828,14 @@
                     "endOffset": 3828
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 684,
+                        "endColumn": 58,
+                        "endOffset": 738
+                    }
                 }
             },
             {
@@ -574,7 +847,14 @@
                     "endOffset": 3929
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2061,
+                        "endColumn": 100,
+                        "endOffset": 2157
+                    }
                 }
             },
             {
@@ -586,7 +866,14 @@
                     "endOffset": 3996
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml"
+                    "file": "/root/AndroidStudioProjects/monetflash/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 340,
+                        "endColumn": 66,
+                        "endOffset": 402
+                    }
                 }
             }
         ]

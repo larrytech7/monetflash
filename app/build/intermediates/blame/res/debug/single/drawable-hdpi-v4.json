@@ -64,6 +64,10 @@
         "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/drawable-hdpi/ic_scanner.png"
     },
     {
+        "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_payment_white_18dp.png",
+        "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/drawable-hdpi/ic_payment_white_18dp.png"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png",
         "source": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },

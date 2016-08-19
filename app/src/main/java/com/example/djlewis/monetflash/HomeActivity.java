@@ -6,7 +6,6 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ImageView;
 
 import mehdi.sakout.fancybuttons.FancyButton;
 import utility.Utility;
@@ -14,7 +13,7 @@ import utility.Utility;
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener{
 
     FancyButton buttonMomo, buttonOrangeMomo;
-    ImageView buttonMasterCard;
+    FancyButton buttonMasterCard;
     String businessname;
 
     @Override
@@ -23,7 +22,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_home);
         ActionBar actionBar = getSupportActionBar();
         buttonMomo = (FancyButton) findViewById(R.id.buttonmtn_momo);
-        buttonMasterCard = (ImageView) findViewById(R.id.buttonmastercard);
+        buttonMasterCard = (FancyButton) findViewById(R.id.buttonmastercard);
         buttonOrangeMomo = (FancyButton) findViewById(R.id.buttonorange_momo);
 
         buttonMomo.setOnClickListener(this);

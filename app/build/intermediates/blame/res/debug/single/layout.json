@@ -32,12 +32,12 @@
         "source": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/layout/content_main.xml",
-        "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/layout/content_main.xml"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/layout/activity_welcome.xml",
         "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/layout/content_main.xml",
+        "source": "/root/AndroidStudioProjects/monetflash/app/src/main/res/layout/content_main.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/monetflash/app/build/intermediates/res/merged/debug/layout/activity_home.xml",
